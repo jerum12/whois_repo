@@ -1,3 +1,20 @@
+## Procedure Details
+
+1. **Clone the Repository**
+
+   git clone https://github.com/jerum12/whois_repo.git
+
+2. **install Dependencies**
+   npm install
+   
+3. **Create a .env File**
+   REACT_APP_WHOIS_API=https://www.whoisxmlapi.com/whoisserver/WhoisService
+   REACT_APP_WHOIS_API_KEY=your_api_key
+
+4. **Run Application in PORT 5000**
+   PORT=5000 npm start
+
+   
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +85,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Whois Lookup Application
+
+## Overview
+
+This is a single-page application (SPA) built with React that allows users to perform domain lookups using the Whois API. Users can input a domain name, select the type of information they want to retrieve (domain or contact information), and view the results in a user-friendly format.
+
+## Features
+
+- Input field to enter a domain name
+- Button to submit the domain name for lookup
+- Option to select the type of information (domain or contact)
+- Displays domain and contact information in a formatted table
+
+## Prerequisites
+
+- Node.js (v14 or higher recommended)
+- npm (Node Package Manager)
+
+
